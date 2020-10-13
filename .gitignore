@@ -1,3 +1,5 @@
+scenes/
+
 # CMake
 /CMakeCache.txt
 /CPackConfig.cmake

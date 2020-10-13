@@ -1,6 +1,9 @@
 # This is the main CMake build file used to compile Mitsuba
 cmake_minimum_required (VERSION 3.9.0)
 project(mitsuba)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/resources")
 
 # ---------- Setup mitsuba.conf ----------
